@@ -19,5 +19,3 @@ def bubble_sort(arr)
   end
   arr
 end
-
-bubble_sort([4, 6, 3, 78, 9999, 2, 0, 2, -3, -400])
