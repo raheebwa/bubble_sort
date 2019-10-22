@@ -15,9 +15,5 @@ def bubble_sort_by(arr)
     end
     swapped = true unless swap.positive?
   end
-  puts arr
-end
-
-bubble_sort_by(%w[hi hello hey howdy]) do |left, right|
-  left.length - right.length
+  arr
 end
